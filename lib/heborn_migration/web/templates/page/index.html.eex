@@ -7,6 +7,11 @@
   <p>
     Migrate your old HE username to HEBorn using your migration token.
   </p>
+  <small>
+    <p>
+      No token yet? Generate it <a href="legacy.hackerexperience.com/migrate">here</a>.
+    </p>
+  </small>
   <%= form_for @changeset,
         page_path(@conn, :post_migrate),
         [class: "pure-form pure-form-stacked"],
